@@ -4,6 +4,8 @@ https://github.com/1xrohit/Setup-ReactNative-development-environment-on-Ubuntu-w
 https://reactnative.dev/docs/set-up-your-environment
 https://docs.expo.dev/get-started/introduction/
 
+https://github.com/ggvhcs/node-react-native
+
 Develop Enviroment:
 ---
 Linux Mint 21.2 Mate x64.
