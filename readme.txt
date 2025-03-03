@@ -53,7 +53,7 @@ WORKDIR /app
 CMD ["/bin/bash"]
 ---
 
-3 --- create image from debian latest ---
+3 --- create image from node ---
 $ sudo docker build -t node-reactn .
 $ sudo docker images |grep node-reactn
 ---
@@ -75,7 +75,7 @@ $ sudo docker run --name nodernd-genymotion \
 
 --- create an container for connect from expo go phones via hostpot ---
 # sudo docker run -ti --name node-rnd-phones \
---net homenet --ip 172.15.0.10 -dp 8082:8081 \
+--net homenet --ip 172.15.0.10 -dp 8081:8081 \
 -d \
 -v $(pwd):/app \
 --interactive --tty --entrypoint /bin/bash node-reactn
